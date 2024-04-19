@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color:  beige;
+    font-family: sans-serif;
+
+}
+
+.alerta{
+    background-color: red;
+    color: yellow;
+    font-weight: bold;
+}
+
+#alerta{
+    background-color: yellow;
+    color: red;
+    font-size: 18px;
+}
+
+
+
+.encabezado{/*En top donde dice principal*/
+
+    position: fixed;
+    background-color: #076AF0;
+    color: white;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+
+}
+
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;/*Esto quita el subrayado de los titulos*/
+}
+.logo{/*Logo de la pagina*/
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 100px;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    line-height: 100px;
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+.nav-menu-link:hover{
+    background-color: #024070;/*Poner fondo a las letras cuando se pasa el cursor*/
+        transition-delay: 0.1s;
+        transition-duration: 0.5s;
+
+}
+
+
+aside{/*barra lateral*/
+
+    position: fixed;
+    padding: 1%;/*Margen para el borde a las letras*/
+    background-color: aquamarine;
+    color: black;
+    top: 100px;
+    left: 0%;
+    bottom: 25px;
+    width: 20%;
+
+}
+
+
+section{/*Lo que hace es acomodar las cajas*/
+    position: fixed;
+    overflow-y: scroll;
+    padding: 1%;/*Margen para el borde a las letras*/
+    background-color: #9999ff;
+    color: black;
+    top: 100px;
+    left: 20%;
+    bottom: 25px;
+    width: 78%;
+
+}
+
+
+
+
+footer{/*acomoda la imagen de copyright*/
+
+    position: fixed;
+    text-align: center;
+    background-color: black;
+    color: white;
+    left: 0;
+    bottom: 0;
+    height: 25px;
+    width: 100%;
+
+}
