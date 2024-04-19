@@ -55,14 +55,3 @@ footer{
 }
 
 
-nav a{
-    text-decoration: none;
-    background-color: cyan;
-    color: black; 
-} 
-
-nav a:hover{
-  
-    background-color: purple;
-    color: white; 
-} 
