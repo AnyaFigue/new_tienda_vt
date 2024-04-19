@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-//los controler son los que se encargan de mostrar la pagina
 @Controller
 @RequestMapping("/pruebas")
 public class PruebasController {
@@ -96,8 +95,7 @@ public class PruebasController {
     }
     
     
-    
-    //Practica#4
+
     
     @GetMapping("/practica4")
     public String practica4(Model model) {
