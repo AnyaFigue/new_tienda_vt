@@ -1,0 +1,57 @@
+body { 
+    margin: 0;
+    box-sizing: border-box;
+    background-color: plum; 
+} 
+header{
+    position: fixed;
+    background-color:peru ;
+    color: white;
+    top: 0;
+    left: 0;
+    height: 98px;
+    width: 100%;
+    
+    
+}
+
+aside{
+    position: fixed;
+    padding: 1%;
+    background-color: pink;
+    color: black;
+    top: 98px;
+    left: 0;
+   bottom: 25px;
+    width: 20%;
+    
+    
+}
+section{
+    position: fixed;
+    overflow-y: scroll;
+    padding: 1%;
+    background-color: plum;
+    color: black;
+    top: 98px;
+    left: 20%;
+   bottom: 25px;
+    width: 80%;
+    
+    
+} 
+
+footer{
+    position: fixed;
+    background-color: powderblue;
+    text-align: center;
+    color: black;
+    left: 0;
+    bottom: 0;
+    height: 25px;
+    width: 100%;
+
+    
+}
+
+
